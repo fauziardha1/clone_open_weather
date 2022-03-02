@@ -38,8 +38,8 @@ dev_dependencies:
   flutter_lints: ^1.0.4
   flutter_test:
     sdk: flutter
-  freezed: ^1.1.1
-  injectable_generator: ^1.5.3
+  # freezed: ^1.1.1
+  # injectable_generator: ^1.5.3
   json_serializable: ^6.1.4
   mocktail: ^0.2.0
 
