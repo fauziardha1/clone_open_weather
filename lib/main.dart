@@ -1,3 +1,4 @@
+import 'package:clone_open_weather/routes/router.dart';
 import 'package:flutter/material.dart';
 
 import 'presentation/pages/login.dart';
@@ -11,12 +12,19 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final AppRouter appRoute = AppRouter();
     return MaterialApp(
       title: 'Clone Open Weather',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Login(),
+      // home: MaterialApp.router(
+      //   debugShowCheckedModeBanner: false,
+      //   routeInformationParser: appRoute.defaultRouterParser(),
+      //   routerDelegate: appRoute.delegate(),
+      // )
+
+      home: Scaffold(),
     );
   }
 }
