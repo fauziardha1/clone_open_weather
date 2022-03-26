@@ -1,4 +1,4 @@
-import 'package:auto_route/annotations.dart';
+import 'package:auto_route/auto_route.dart';
 import 'package:clone_open_weather/routes/routes.dart';
 import 'package:flutter/material.dart';
 
